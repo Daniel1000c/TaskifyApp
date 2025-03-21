@@ -40,10 +40,10 @@ const TaskifyList = () => {
     
     return (
         
-        <div className=' bg-[#266dd3] mt-20 p-8 rounded-md'>
+        <div className=' bg-[#266dd3] mt-20 p-8 rounded-md sm:p-6 md:p-8 lg:p-10 xl:p-12'>
             
             {/*Add taskify title */}
-            <h1 className='text-white font-bold font-mono tracking-wider text-4xl mb-4'>Taskify</h1>
+            <h1 className='text-white font-bold font-mono tracking-wider text-4xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>Taskify</h1>
 
             {/*Add list form input component */}
             <ListForm createTodo = {createTodo}/>
